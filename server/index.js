@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(cors())
 
 // Routes
-app.use('/',(req,res)=>{
+app.get('/',(req,res)=>{
     res.send('API END POINT FOR TODO APPLICATION')
 })
 app.use('/api', TodoRouter);
