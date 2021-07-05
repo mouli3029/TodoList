@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {loginUser} from '../../apicalls/user';
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 import './Login.css'
 import { setToken } from '../../apicalls/todo';
 
@@ -52,9 +52,9 @@ const Login = ({setUser}) => {
                     onClick = {handleSubmit}
                   className = "card-btn">Signin</button>
                 </div>
-                {/* <div className="card-footer">
-                <p>No Account ? <strong> <Link className="signup-text" to="/signup">Signup</Link></strong></p>
-                </div> */}
+                <div className="card-footer">
+                <p>No Account ? <strong> <Link className="signup-text" to="/register">Signup</Link></strong></p>
+                </div> 
             </div>
 
         </div>
