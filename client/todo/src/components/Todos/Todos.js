@@ -15,7 +15,6 @@ const Heading = styled.h3`
 `
 
 const AllTodo = ({todos,setTodos}) => {
-
     return (
       <Container>
         <Row>

@@ -1,0 +1,38 @@
+.signin {
+  display: flex;
+  margin-top: 10%;
+}
+.card {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-header {
+  text-align: center;
+}
+.card-content-div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.card-content-div > label {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4px;
+}
+.card-input {
+  width: 100%;
+  padding: 10px 5px;
+}
+.card-btn {
+  background-color: #5a20cb;
+  color: white;
+  width: 103%;
+  padding: 10px 5px;
+  border-radius: 20px;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+}
+.signup-text {
+  text-decoration: none;
+  color: #5a20cb;
+}
